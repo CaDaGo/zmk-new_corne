@@ -97,7 +97,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB COLOR HSB(188,94,48)
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'

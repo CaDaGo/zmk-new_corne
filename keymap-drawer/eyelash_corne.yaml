@@ -268,3 +268,5 @@ combos:
   l: [QWERTY]
 - p: [45, 46, 47]
   k: RGB TOG
+- p: [25, 26]
+  k: '?'

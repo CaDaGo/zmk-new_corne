@@ -251,3 +251,7 @@ combos:
   l: [QWERTY]
 - p: [24, 39]
   k: {t: \, s: '|'}
+  l: [QWERTY]
+- p: [7, 8]
+  k: '"'
+  l: [QWERTY]

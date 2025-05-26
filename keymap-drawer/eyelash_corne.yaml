@@ -21,7 +21,7 @@ layers:
   - F
   - G
   - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:menu-left$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:mouse-right-click-outline$$', h: '$$mdi:mouse-left-click-outline$$'}
   - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:menu-left$$'}
   - H
   - J
@@ -252,7 +252,7 @@ combos:
 - p: [24, 39]
   k: {t: \, s: '|'}
   l: [QWERTY]
-- p: [23, 24]
+- p: [7, 8]
   k: '"'
   l: [QWERTY]
 - p: [23, 8]
@@ -266,3 +266,5 @@ combos:
 - p: [45, 46, 47]
   k: {t: Gaming, h: toggle}
   l: [QWERTY]
+- p: [45, 46, 47]
+  k: RGB TOG

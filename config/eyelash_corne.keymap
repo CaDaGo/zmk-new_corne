@@ -53,15 +53,22 @@
     combos {
         compatible = "zmk,combos";
 
-        Slash {
+        combo_Slash {
             bindings = <&kp SLASH>;
             key-positions = <24 10>;
             layers = <0>;
         };
 
-        Backslash {
+        combo_Backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <24 39>;
+            layers = <0>;
+        };
+
+        combo_Qutoes {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <7 8>;
+            layers = <0>;
         };
     };
 

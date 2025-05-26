@@ -122,6 +122,11 @@
             bindings = <&rgb_ug RGB_TOG>;
             key-positions = <45 46 47>;
         };
+
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <25 26>;
+        };
     };
 
     keymap {

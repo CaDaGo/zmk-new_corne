@@ -20,9 +20,9 @@ layers:
   - D
   - F
   - G
+  - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:menu-left$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:menu-left$$'}
   - H
   - J
   - K
@@ -36,7 +36,7 @@ layers:
   - {t: V, h: Ctl+V}
   - B
   - $$mdi:volume-off$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:menu-down$$'}
   - N
   - M
   - {t: ',', s: <}

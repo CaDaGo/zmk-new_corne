@@ -80,6 +80,16 @@
             bindings = <&kp AT>;
             key-positions = <1 45>;
         };
+
+        combo_Dollar {
+            bindings = <&kp DLLR>;
+            key-positions = <2 45>;
+        };
+
+        combo_caret {
+            bindings = <&kp CARET>;
+            key-positions = <45 0>;
+        };
     };
 
     keymap {

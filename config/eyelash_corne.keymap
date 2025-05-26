@@ -75,6 +75,11 @@
             bindings = <&kp EXCLAMATION>;
             key-positions = <23 8>;
         };
+
+        combo_at {
+            bindings = <&kp AT>;
+            key-positions = <1 45>;
+        };
     };
 
     keymap {

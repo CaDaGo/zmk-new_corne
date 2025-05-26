@@ -217,7 +217,7 @@ layers:
   - T
   - Y
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: QWERTY, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: QWERTY, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -263,3 +263,6 @@ combos:
   k: $
 - p: [45, 0]
   k: ^
+- p: [45, 46, 47]
+  k: {t: Gaming, h: toggle}
+  l: [QWERTY]

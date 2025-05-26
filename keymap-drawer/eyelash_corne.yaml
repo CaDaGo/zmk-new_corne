@@ -2,7 +2,7 @@ layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
   - $$mdi:keyboard-tab$$
-  - Q
+  - {t: Q, h: Ctl+@}
   - W
   - E
   - R
@@ -242,8 +242,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [24, 10]

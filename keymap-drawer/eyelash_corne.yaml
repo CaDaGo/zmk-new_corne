@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:backspace-reverse-outline$$'}
   - $$mdi:keyboard-esc$$
   - A
   - S
@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '=', s: +}
+  - {t: '=', h: INS, s: +}
   - '&td0'
   - {t: Z, h: Ctl+Z}
   - {t: X, h: Ctl+X}
@@ -231,7 +231,7 @@ layers:
   - D
   - F
   - G
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: INS}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

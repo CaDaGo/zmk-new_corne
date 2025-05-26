@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:menu-up$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Y
   - U
   - I
@@ -20,9 +20,9 @@ layers:
   - D
   - F
   - G
-  - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:menu-left$$'}
-  - {t: '$$mdi:mouse-left-click-outline$$', h: '$$mdi:mouse-right-click-outline$$'}
-  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:menu-right$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - H
   - J
   - K
@@ -36,7 +36,7 @@ layers:
   - {t: V, h: Ctl+V}
   - B
   - $$mdi:volume-off$$
-  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:menu-down$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - N
   - M
   - {t: ',', s: <}

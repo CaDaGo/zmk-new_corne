@@ -21,7 +21,7 @@ layers:
   - F
   - G
   - {t: '$$mdi:arrow-left-bold$$', h: '$$mdi:menu-left$$'}
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:mouse-left-click-outline$$', h: '$$mdi:mouse-right-click-outline$$'}
   - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:menu-right$$'}
   - H
   - J
@@ -217,7 +217,7 @@ layers:
   - T
   - Y
   - {t: '$$mdi:transfer$$', type: trans}
-  - QWERTY
+  - {t: QWERTY, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

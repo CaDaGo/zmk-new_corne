@@ -129,12 +129,6 @@
             key-positions = <25 26>;
         };
 
-        default_rgb {
-            bindings = <&rgb_ug RGB_TOG>;
-            key-positions = <45 46 47>;
-            layers = <4>;
-        };
-
         windows {
             bindings = <&kp LEFT_WIN>;
             key-positions = <45 46>;
@@ -142,6 +136,12 @@
 
         default_laout {
             bindings = <&to 0>;
+            key-positions = <45 46 47>;
+            layers = <4>;
+        };
+
+        default_rgb {
+            bindings = <&rgb_ug RGB_TOG>;
             key-positions = <45 46 47>;
             layers = <4>;
         };
@@ -200,10 +200,10 @@
 
         Gaming {
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N4     &kp N5    &kp N6                              &trans          &kp N8     &kp N9  &kp N0  &trans  &trans  &trans
-&kp TAB    &kp Q   &kp W   &kp E      &kp R     &kp T                       &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp A   &kp S   &kp D      &kp F     &kp G      &mt ENTER INS            &trans          &trans     &trans  &trans  &trans  &trans  &trans
-                           &kp LCTRL  &kp LALT  &kp SPACE                                           &kp ENTER  &trans  &trans
+&kp ESC    &kp N1  &kp N2  &kp N4     &kp N5    &kp N6                             &none         &none      &none  &none  &none  &none  &none
+&kp TAB    &kp Q   &kp W   &kp E      &kp R     &kp T                       &none  &none  &none  &none      &none  &none  &none  &none  &none
+&kp LSHFT  &kp A   &kp S   &kp D      &kp F     &kp G      &mt ENTER INS           &none         &none      &none  &none  &none  &none  &none
+                           &kp LCTRL  &kp LALT  &kp SPACE                                        &kp ENTER  &none  &none
             >;
 
             label = "Gaming";

@@ -477,7 +477,7 @@ combos:
   k: {t: '$$mdi:minus-circle-outline$$', type: none}
 - p: [10, 3]
   k: '&oe_umlaut'
-- p: [3, 13]
+- p: [3, 14]
   k: '&ae_umlaut'
 - p: [3, 8]
   k: '&ue_umlaut'

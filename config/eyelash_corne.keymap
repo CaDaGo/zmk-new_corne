@@ -156,7 +156,7 @@
 
         ae {
             bindings = <&ae_umlaut>;
-            key-positions = <3 13>;
+            key-positions = <3 14>;
         };
 
         ue {

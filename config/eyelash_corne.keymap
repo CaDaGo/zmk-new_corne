@@ -157,7 +157,7 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E      &kp R     &kp T                                    &mmv MOVE_UP                            &kp Y        &kp U  &kp I      &kp O    &kp P      &mt DEL BACKSPACE
+&kp TAB  &kp Q  &kp W  &kp E      &kp R     &kp T                                    &mmv MOVE_UP                            &kp Y        &kp U  &kp I      &kp O    &kp P      &kp BACKSPACE
 &kp ESC  &kp A  &kp S  &kp D      &kp F     &kp G                    &mmv MOVE_LEFT  &mouseClick RCLK LCLK  &mmv MOVE_RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI   &mt INS EQUAL
 &td0     &kp Z  &kp X  &kp C      &kp V     &kp B      &kp C_MUTE                    &mmv MOVE_DOWN                          &kp N        &kp M  &kp COMMA  &kp DOT  &kp MINUS  &kp LSHFT
                        &kp LCTRL  &kp LALT  &kp SPACE                                                                        &lt 1 ENTER  &mo 2  &mo 3
@@ -169,10 +169,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&none                            &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8                            &kp N9           &kp N0    &kp BSPC
+&none                            &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8                            &kp N9           &kp N0    &kp DELETE
 &bt BT_CLR                       &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP                            &kp RIGHT        &kp HOME  &kp PG_UP
 &rgb_ug RGB_COLOR_HSB(92,73,48)  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &bt BT_SEL 4  &none         &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                                                                  &none         &none         &none                                                                           &kp INS          &kp DEL          &rgb_ug RGB_COLOR_HSB(188,94,48)
+                                                                  &none         &none         &none                                                                           &none            &kp DEL          &rgb_ug RGB_COLOR_HSB(188,94,48)
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -212,15 +212,6 @@
 
             label = "Gaming";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-        };
-
-        layer_5 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
-            >;
         };
     };
 

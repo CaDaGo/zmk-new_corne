@@ -148,6 +148,21 @@
             bindings = <&none>;
             key-positions = <45 47 36>;
         };
+
+        oe {
+            bindings = <&oe_umlaut>;
+            key-positions = <10 3>;
+        };
+
+        ae {
+            bindings = <&ae_umlaut>;
+            key-positions = <3 13>;
+        };
+
+        ue {
+            bindings = <&ue_umlaut>;
+            key-positions = <3 8>;
+        };
     };
 
     macros {
@@ -171,6 +186,27 @@
             bindings = <&to 5 &rgb_ug RGB_TOG>;
             label = "GAMING_LOL";
         };
+
+        oe_umlaut: oe_umlaut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOUBLE_QUOTES &kp O>;
+            label = "OE_UMLAUT";
+        };
+
+        ae_umlaut: ae_umlaut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOUBLE_QUOTES &kp A>;
+            label = "AE_UMLAUT";
+        };
+
+        ue_umlaut: ue_umlaut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOUBLE_QUOTES &kp U>;
+            label = "UE_UMLAUT";
+        };
     };
 
     keymap {
@@ -188,10 +224,10 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        lower_layer {
+        number {
             display-name = "NUMBER";
             bindings = <
-&none                            &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8                            &kp N9           &kp N0    &kp DELETE
+&none                            &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &kp UP_ARROW                     &kp N6           &kp N7           &kp N8                            &kp N9           &kp N0    &kp DELETE
 &bt BT_CLR                       &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP                            &kp RIGHT        &kp HOME  &kp PG_UP
 &rgb_ug RGB_COLOR_HSB(92,73,48)  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &bt BT_SEL 4  &none         &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD  &kp END   &kp PG_DN
                                                                   &none         &none         &none                                                                           &none            &kp DEL          &rgb_ug RGB_COLOR_HSB(188,94,48)
@@ -200,7 +236,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        raise_layer {
+        symbol {
             display-name = "SYMBOL";
             bindings = <
 &none  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                           &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
@@ -212,8 +248,8 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_3 {
-            display-name = "Fn";
+        settings {
+            display-name = "SETTINGS";
             bindings = <
 &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
 &none           &none       &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
@@ -246,6 +282,33 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
         };
     };
 

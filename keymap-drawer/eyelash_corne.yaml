@@ -474,7 +474,7 @@ combos:
 - p: [36, 37]
   k: _
 - p: [45, 47, 36]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  k: {t: LoL, h: toggle}
 - p: [10, 3]
   k: '&oe_umlaut'
 - p: [3, 14]

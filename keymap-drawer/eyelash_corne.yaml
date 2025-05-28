@@ -530,5 +530,5 @@ combos:
   k: '&ae_umlaut'
 - p: [3, 8]
   k: '&ue_umlaut'
-- p: [0, 13]
+- p: [7, 22]
   k: ':'

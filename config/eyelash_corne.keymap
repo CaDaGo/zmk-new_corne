@@ -166,7 +166,7 @@
 
         colon {
             bindings = <&kp COLON>;
-            key-positions = <0 13>;
+            key-positions = <7 22>;
         };
     };
 

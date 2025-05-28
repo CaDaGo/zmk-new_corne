@@ -243,8 +243,8 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: roTest, h: toggle}
+  - {t: QWERTY, h: toggle}
   LoL:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -296,7 +296,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   roTest:
   - $$mdi:keyboard-esc$$
-  - {t: '1', s: '!'}
+  - '&doublestrafe'
   - {t: '2', s: '@'}
   - '3'
   - '4'

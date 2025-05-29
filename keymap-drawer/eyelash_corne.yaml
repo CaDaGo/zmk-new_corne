@@ -244,14 +244,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: LoL, h: toggle}
-  - {t: roTest, h: toggle}
+  - {t: ragnarok, h: toggle}
   LoL:
   - $$mdi:keyboard-esc$$
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - '3'
-  - '4'
-  - {t: '5', s: '%'}
+  - Q
+  - W
+  - E
+  - R
+  - T
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -260,11 +260,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - V
+  - A
+  - S
+  - D
+  - F
+  - G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -275,11 +275,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
   - B
-  - S
-  - D
-  - F
-  - G
   - {t: INS, h: '$$mdi:keyboard-return$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -293,8 +293,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: Gaming, h: toggle}
-  - {t: roTest, h: toggle}
-  roTest:
+  - {t: ragnarok, h: toggle}
+  ragnarok:
   - $$mdi:keyboard-esc$$
   - '&doublestrafe'
   - {t: '2', s: '@'}
@@ -498,7 +498,7 @@ combos:
   k: LEFT WIN
 - p: [46, 47, 45]
   k: '&defaul_toggleRgb'
-  l: [Gaming, LoL, roTest]
+  l: [Gaming, LoL, ragnarok]
 - p: [22, 23]
   k: KP MINUS
   l: [QWERTY]

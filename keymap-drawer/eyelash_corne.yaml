@@ -523,7 +523,7 @@ combos:
 - p: [36, 37]
   k: _
 - p: [45, 47, 36]
-  k: {t: LoL, h: toggle}
+  k: '&gaming_LoL'
 - p: [10, 3]
   k: '&oe_umlaut'
 - p: [3, 14]

@@ -218,10 +218,10 @@
 
         movement {
             bindings = <
-&trans  &trans  &trans  &trans  &trans        &trans                    &trans          &trans     &trans    &trans     &trans        &trans              &trans
-&trans  &trans  &trans  &trans  &trans        &trans            &trans  &trans  &trans  &kp ENTER  &kp UP    &trans     &trans        &kp LG(UP_ARROW)    &kp ENTER
-&trans  &trans  &trans  &trans  &trans        &trans  &trans            &trans          &kp LEFT   &kp DOWN  &kp RIGHT  &kp LG(LEFT)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)
-                        &trans  &kp LEFT_GUI  &trans                                    &none      &none     &none
+&trans  &trans  &trans  &trans  &trans        &trans                    &trans          &trans        &trans        &trans         &trans    &trans          &trans
+&trans  &trans  &trans  &trans  &trans        &trans            &trans  &trans  &trans  &kp ENTER     &kp LG(UP)    &trans         &trans    &kp UP_ARROW    &kp ENTER
+&trans  &trans  &trans  &trans  &trans        &trans  &trans            &trans          &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW
+                        &trans  &kp LEFT_GUI  &trans                                    &none         &none         &none
             >;
 
             label = "movement";

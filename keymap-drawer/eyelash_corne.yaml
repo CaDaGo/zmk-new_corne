@@ -57,12 +57,12 @@ layers:
   - F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - KP NUM
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - '*'
-  - {t: /, s: '?'}
+  - KP PLUS
+  - KP MULTIPLY
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F5
   - F6
@@ -76,8 +76,8 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - +
-  - '%'
+  - KP SUBTRACT
+  - KP DIVIDE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F9
   - F10
@@ -90,7 +90,7 @@ layers:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - {t: '0', s: )}
+  - '%'
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

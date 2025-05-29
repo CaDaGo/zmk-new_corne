@@ -145,7 +145,7 @@
         };
 
         LoL {
-            bindings = <&to 5>;
+            bindings = <&gaming_LoL>;
             key-positions = <45 47 36>;
         };
 
@@ -188,7 +188,7 @@
         gaming_LoL: gaming_LoL {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 5 &rgb_ug RGB_TOG>;
+            bindings = <&to 6 &rgb_ug RGB_TOG>;
             label = "GAMING_LOL";
         };
 

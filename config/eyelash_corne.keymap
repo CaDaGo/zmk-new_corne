@@ -77,12 +77,13 @@
         GamingLayer {
             bindings = <&gaming_toggleRgb>;
             key-positions = <45 47 46>;
-            layers = <0 2 1 7>;
+            layers = <0>;
         };
 
         windows {
             bindings = <&kp LEFT_WIN>;
             key-positions = <45 46>;
+            layers = <0>;
         };
 
         default_laout {
@@ -101,11 +102,6 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <36 37>;
             layers = <0>;
-        };
-
-        LoL {
-            bindings = <&gaming_LoL>;
-            key-positions = <45 47 36>;
         };
 
         oe {

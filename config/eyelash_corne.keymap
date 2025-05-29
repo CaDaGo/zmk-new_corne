@@ -205,10 +205,10 @@
 
         Gaming {
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                          &none         &none      &none  &none      &none  &none  &none
-&kp TAB    &kp Q   &kp W   &kp E         &kp R         &kp T                    &none  &none  &none  &none      &none  &none      &none  &none  &none
-&kp LSHFT  &kp A   &kp S   &kp D         &kp F         &kp G   &mt ENTER INS           &none         &none      &none  &none      &none  &none  &none
-                           &trans        &trans        &trans                                        &kp ENTER  &lol   &ragnarok
+&kp ESC    &kp N1  &kp N2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                           &trans          &trans     &trans  &trans     &trans  &trans  &trans
+&kp TAB    &kp Q   &kp W   &kp E         &kp R         &kp T                    &trans  &trans  &trans  &trans     &trans  &trans     &trans  &trans  &trans
+&kp LSHFT  &kp A   &kp S   &kp D         &kp F         &kp G   &mt ENTER INS            &trans          &trans     &trans  &trans     &trans  &trans  &trans
+                           &trans        &trans        &trans                                           &kp ENTER  &lol    &ragnarok
             >;
 
             label = "Gaming";

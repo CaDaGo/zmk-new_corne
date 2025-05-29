@@ -202,7 +202,6 @@
                                   &trans   &kp LEFT_GUI  &trans                                              &none       &none   &none
             >;
 
-            sensor-bindings = <&rgb_encoder>;
             label = "number";
         };
 
@@ -214,8 +213,6 @@
 &kp RA(C)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(COMMA)     &kp RA(L)     &trans     &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE   &kp TILDE
                                                &trans            &kp LEFT_GUI  &trans                                                                &kp RET    &trans     &trans
             >;
-
-            sensor-bindings = <&scroll_encoder>;
         };
 
         movement_settings {
@@ -227,7 +224,6 @@
             >;
 
             label = "movement_settings";
-            sensor-bindings = <&inc_dec_kp 0 0>;
         };
 
         Gaming {

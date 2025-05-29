@@ -395,9 +395,10 @@ layers:
 combos:
 - p: [45, 47, 46]
   k: '&gaming_toggleRgb'
-  l: [QWERTY, SYMBOL, number, color]
+  l: [QWERTY]
 - p: [45, 46]
   k: LEFT WIN
+  l: [QWERTY]
 - p: [46, 47, 45]
   k: '&defaul_toggleRgb'
   l: [Gaming, LoL, ragnarok]
@@ -407,8 +408,6 @@ combos:
 - p: [36, 37]
   k: _
   l: [QWERTY]
-- p: [45, 47, 36]
-  k: '&gaming_LoL'
 - p: [10, 3]
   k: '&oe_umlaut'
   l: [QWERTY]

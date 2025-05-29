@@ -192,7 +192,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: color, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
@@ -343,13 +343,13 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: Gaming, h: toggle}
   - {t: LoL, h: toggle}
-  SETTINGS:
-  - '&studio_unlock'
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  color:
+  - RGB COLOR HSB(0,100,50)
+  - RGB COLOR HSB(19,99,50)
+  - RGB COLOR HSB(28,100,50)
+  - RGB COLOR HSB(54,100,50)
+  - RGB COLOR HSB(81,100,50)
+  - RGB COLOR HSB(178,100,50)
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
@@ -357,10 +357,10 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
+  - RGB COLOR HSB(199,100,49)
+  - RGB COLOR HSB(277,94,51)
+  - RGB COLOR HSB(264,100,50)
+  - RGB COLOR HSB(302,100,50)
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -395,7 +395,7 @@ layers:
 combos:
 - p: [45, 47, 46]
   k: '&gaming_toggleRgb'
-  l: [QWERTY, SYMBOL, number, SETTINGS]
+  l: [QWERTY, SYMBOL, number, color]
 - p: [45, 46]
   k: LEFT WIN
 - p: [46, 47, 45]

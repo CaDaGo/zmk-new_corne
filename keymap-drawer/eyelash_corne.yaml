@@ -48,7 +48,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', h: number}
   - {t: '''', h: SYMBOL, s: '"'}
-  - {t: '*', h: SETTINGS}
+  - {t: '*', h: movement}
   number:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
@@ -195,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   Gaming:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -489,7 +489,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
 - p: [24, 10]
   k: {t: /, s: '?'}

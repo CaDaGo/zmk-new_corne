@@ -113,9 +113,9 @@ layers:
   - )
   - ':'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:bluetooth-off$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -491,28 +491,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
-- p: [24, 10]
-  k: {t: /, s: '?'}
-  l: [QWERTY]
-- p: [24, 39]
-  k: {t: \, s: '|'}
-  l: [QWERTY]
-- p: [7, 8]
-  k: '"'
-  l: [QWERTY]
-- p: [23, 8]
-  k: '!'
-- p: [1, 45]
-  k: '@'
-- p: [2, 45]
-  k: $
-- p: [45, 0]
-  k: ^
 - p: [45, 47, 46]
   k: '&gaming_toggleRgb'
   l: [QWERTY, SYMBOL, number, SETTINGS]
-- p: [25, 26]
-  k: '?'
 - p: [45, 46]
   k: LEFT WIN
 - p: [46, 47, 45]
@@ -530,5 +511,3 @@ combos:
   k: '&ae_umlaut'
 - p: [3, 8]
   k: '&ue_umlaut'
-- p: [7, 22]
-  k: ':'

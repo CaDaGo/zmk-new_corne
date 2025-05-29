@@ -29,7 +29,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - $$mdi:backspace-reverse-outline$$
-  - '&td0'
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C

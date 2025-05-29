@@ -138,13 +138,6 @@
             label = "DEFAUL_TOGGLERGB";
         };
 
-        gaming_LoL: gaming_LoL {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&to 6 &rgb_ug RGB_TOG>;
-            label = "GAMING_LOL";
-        };
-
         oe_umlaut: oe_umlaut {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -171,6 +164,27 @@
             #binding-cells = <0>;
             bindings = <&kp NUMBER_1 &mkp LCLK>;
             label = "DOUBLESTRAFE";
+        };
+
+        lol: lol {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 5 &rgb_ug RGB_COLOR_HSB(121,100,30)>;
+            label = "LOL";
+        };
+
+        ragnarok: ragnarok {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 6 &rgb_ug RGB_COLOR_HSB(29,100,49)>;
+            label = "RAGNAROK";
+        };
+
+        gaming: gaming {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 6 &rgb_ug RGB_COLOR_HSB(267,100,49)>;
+            label = "GAMING";
         };
     };
 
@@ -224,10 +238,10 @@
 
         Gaming {
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                          &none         &none      &none  &none  &none  &none  &none
-&kp TAB    &kp Q   &kp W   &kp E         &kp R         &kp T                    &none  &none  &none  &none      &none  &none  &none  &none  &none
-&kp LSHFT  &kp A   &kp S   &kp D         &kp F         &kp G   &mt ENTER INS           &none         &none      &none  &none  &none  &none  &none
-                           &trans        &trans        &trans                                        &kp ENTER  &to 5  &to 6
+&kp ESC    &kp N1  &kp N2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                          &none         &none      &none  &none      &none  &none  &none
+&kp TAB    &kp Q   &kp W   &kp E         &kp R         &kp T                    &none  &none  &none  &none      &none  &none      &none  &none  &none
+&kp LSHFT  &kp A   &kp S   &kp D         &kp F         &kp G   &mt ENTER INS           &none         &none      &none  &none      &none  &none  &none
+                           &trans        &trans        &trans                                        &kp ENTER  &lol   &ragnarok
             >;
 
             label = "Gaming";
@@ -237,10 +251,10 @@
         LoL {
             label = "LoL";
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E   &kp R   &kp T                           &none         &none      &none  &none  &none  &none  &none
-&kp TAB    &kp A  &kp S  &kp D   &kp F   &kp G                    &none  &none  &none  &none      &none  &none  &none  &none  &none
-&kp LSHFT  &kp Z  &kp X  &kp C   &kp V   &kp B   &mt ENTER INS           &none         &none      &none  &none  &none  &none  &none
-                         &trans  &trans  &trans                                        &kp ENTER  &to 4  &to 6
+&kp ESC    &kp Q  &kp W  &kp E   &kp R   &kp T                           &none         &none      &none    &none      &none  &none  &none
+&kp TAB    &kp A  &kp S  &kp D   &kp F   &kp G                    &none  &none  &none  &none      &none    &none      &none  &none  &none
+&kp LSHFT  &kp Z  &kp X  &kp C   &kp V   &kp B   &mt ENTER INS           &none         &none      &none    &none      &none  &none  &none
+                         &trans  &trans  &trans                                        &kp ENTER  &gaming  &ragnarok
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -252,7 +266,7 @@
 &kp ESC    &doublestrafe  &kp N2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                           &trans          &kp LA(V)  &kp LA(B)  &kp LA(E)  &kp LA(Q)  &kp LA(W)  &kp LA(U)
 &kp TAB    &kp Q          &kp W   &kp E         &kp R         &kp T                    &trans  &trans  &trans  &kp LA(R)  &kp LA(J)  &kp LA(S)  &kp LA(Z)  &kp LA(H)  &kp LA(C)
 &kp LSHFT  &kp A          &kp S   &kp D         &kp F         &kp G   &mt ENTER INS            &trans          &kp INS    &kp LA(L)  &kp LA(M)  &kp LA(Y)  &kp LA(G)  &kp LA(R)
-                                  &trans        &trans        &trans                                           &kp ENTER  &to 4      &to 5
+                                  &trans        &trans        &trans                                           &kp ENTER  &gaming    &lol
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;

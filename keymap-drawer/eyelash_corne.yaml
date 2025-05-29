@@ -162,7 +162,7 @@ layers:
   - PAUSE
   - PRINTSCREEN
   - BT CLR ALL
-  - RGB HUI
+  - OUT USB
   - RGB SAI
   - RGB BRI
   - RGB SPI
@@ -177,7 +177,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - RGB TOG
-  - RGB HUD
+  - OUT BLE
   - RGB SAD
   - RGB BRD
   - RGB SPD

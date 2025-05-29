@@ -93,11 +93,13 @@
         minus {
             bindings = <&kp KP_MINUS>;
             key-positions = <22 23>;
+            layers = <0>;
         };
 
         unterstrich {
             bindings = <&kp UNDERSCORE>;
             key-positions = <36 37>;
+            layers = <0>;
         };
 
         LoL {
@@ -108,16 +110,19 @@
         oe {
             bindings = <&oe_umlaut>;
             key-positions = <10 3>;
+            layers = <0>;
         };
 
         ae {
             bindings = <&ae_umlaut>;
             key-positions = <3 14>;
+            layers = <0>;
         };
 
         ue {
             bindings = <&ue_umlaut>;
             key-positions = <3 8>;
+            layers = <0>;
         };
     };
 

@@ -1656,16 +1656,12 @@ rect.held, rect.combo.held {
 <g transform="translate(695, 209) rotate(-12.0)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#LoL">
-<text x="0" y="-4" class="key tap layer-activator">LoL</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<text x="0" y="-4" class="key tap">&amp;lol</text>
 </g>
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#ragnarok">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 75%">ragnarok</tspan></text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 67%">&amp;ragnarok</tspan></text>
 </g>
 <g class="combo combopos-0">
 <path d="M694,212 l43,-7" class="combo"/>
@@ -1912,16 +1908,12 @@ rect.held, rect.combo.held {
 <g transform="translate(695, 209) rotate(-12.0)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Gaming">
-<text x="0" y="-4" class="key tap layer-activator">Gaming</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 86%">&amp;gaming</tspan></text>
 </g>
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#ragnarok">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 75%">ragnarok</tspan></text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 67%">&amp;ragnarok</tspan></text>
 </g>
 <g class="combo combopos-0">
 <path d="M694,212 l43,-7" class="combo"/>
@@ -2170,16 +2162,12 @@ rect.held, rect.combo.held {
 <g transform="translate(695, 209) rotate(-12.0)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Gaming">
-<text x="0" y="-4" class="key tap layer-activator">Gaming</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 86%">&amp;gaming</tspan></text>
 </g>
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#LoL">
-<text x="0" y="-4" class="key tap layer-activator">LoL</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<text x="0" y="-4" class="key tap">&amp;lol</text>
 </g>
 <g class="combo combopos-0">
 <path d="M694,212 l43,-7" class="combo"/>

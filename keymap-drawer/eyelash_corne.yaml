@@ -243,8 +243,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: LoL, h: toggle}
-  - {t: ragnarok, h: toggle}
+  - '&lol'
+  - '&ragnarok'
   LoL:
   - $$mdi:keyboard-esc$$
   - Q
@@ -292,8 +292,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: Gaming, h: toggle}
-  - {t: ragnarok, h: toggle}
+  - '&gaming'
+  - '&ragnarok'
   ragnarok:
   - $$mdi:keyboard-esc$$
   - '&doublestrafe'
@@ -341,8 +341,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: Gaming, h: toggle}
-  - {t: LoL, h: toggle}
+  - '&gaming'
+  - '&lol'
   color:
   - RGB COLOR HSB(0,100,50)
   - RGB COLOR HSB(19,99,50)

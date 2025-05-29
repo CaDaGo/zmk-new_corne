@@ -342,7 +342,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&gaming'
-  - '&lol'
+  - movement_settings
   color:
   - RGB COLOR HSB(0,100,50)
   - RGB COLOR HSB(19,99,50)

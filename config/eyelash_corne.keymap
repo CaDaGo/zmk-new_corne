@@ -115,7 +115,7 @@
         GamingLayer {
             bindings = <&gaming_toggleRgb>;
             key-positions = <45 47 46>;
-            layers = <0 2 1 3>;
+            layers = <0 2 1 9>;
         };
 
         question {
@@ -227,10 +227,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB  &kp Q  &kp W  &kp E      &kp R      &kp T                                       &mmv MOVE_UP                            &kp Y        &kp U  &kp I      &kp O    &kp P      &kp BACKSPACE
-&kp ESC  &kp A  &kp S  &kp D      &kp F      &kp G                       &mmv MOVE_LEFT  &mouseClick RCLK LCLK  &mmv MOVE_RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI   &kp DEL
-&td0     &kp Z  &kp X  &kp C      &kp V      &kp B         &kp C_MUTE                    &mmv MOVE_DOWN                          &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp LSHFT
-                       &kp LCTRL  &kp SPACE  &kp LEFT_ALT                                                                        &lt 1 ENTER  &mo 2  &mo 3
+&kp TAB  &kp Q  &kp W  &kp E      &kp R      &kp T                                       &mmv MOVE_UP                            &kp Y        &kp U               &kp I           &kp O    &kp P      &kp BACKSPACE
+&kp ESC  &kp A  &kp S  &kp D      &kp F      &kp G                       &mmv MOVE_LEFT  &mouseClick RCLK LCLK  &mmv MOVE_RIGHT  &kp H        &kp J               &kp K           &kp L    &kp SEMI   &kp DEL
+&td0     &kp Z  &kp X  &kp C      &kp V      &kp B         &kp C_MUTE                    &mmv MOVE_DOWN                          &kp N        &kp M               &kp COMMA       &kp DOT  &kp SLASH  &kp LSHFT
+                       &kp LCTRL  &kp SPACE  &kp LEFT_ALT                                                                        &lt 1 ENTER  &lt 2 SINGLE_QUOTE  &lt 9 ASTERISK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -261,16 +261,15 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        settings {
-            display-name = "SETTINGS";
+        movement {
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&none           &none       &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&none           &sys_reset  &none      &bootloader  &none      &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &none        &none      &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                                   &none        &none      &none
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans    &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp UP_ARROW    &kp ENTER
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            label = "movement";
         };
 
         Gaming {
@@ -327,13 +326,16 @@
             >;
         };
 
-        layer_8 {
+        settings {
+            display-name = "SETTINGS";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
+&none           &none       &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
+&none           &sys_reset  &none      &bootloader  &none      &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &none        &none      &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                       &trans       &trans     &trans                                                                   &none        &none      &none
             >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
     };
 

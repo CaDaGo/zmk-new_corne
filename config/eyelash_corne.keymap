@@ -127,7 +127,7 @@
         gaming_toggleRgb: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &rgb_ug RGB_TOG>;
+            bindings = <&to 1 &rgb_ug RGB_TOG &rgb_ug RGB_COLOR_HSB(272,92,47)>;
             label = "NEW_MACRO";
         };
 

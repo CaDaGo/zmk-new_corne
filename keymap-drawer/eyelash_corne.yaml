@@ -48,7 +48,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', h: number}
   - {t: '''', h: SYMBOL, s: '"'}
-  - {t: '*', h: movement}
+  - {t: '*', h: movement_settings}
   number:
   - PRINTSCREEN
   - F1
@@ -147,14 +147,14 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  movement:
+  movement_settings:
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - PgUp
   - PgDn
   - SCROLLLOCK
@@ -167,9 +167,9 @@ layers:
   - RGB BRI
   - RGB SPI
   - RGB EFF
+  - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&soft_off'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Gui+$$mdi:arrow-up-bold$$
   - HOME
@@ -183,7 +183,7 @@ layers:
   - RGB SPD
   - RGB EFR
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - Gui+$$mdi:arrow-left-bold$$
   - Gui+$$mdi:arrow-down-bold$$
   - Gui+$$mdi:arrow-right-bold$$

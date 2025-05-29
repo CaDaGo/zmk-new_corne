@@ -102,7 +102,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '!'
   - '@'
-  - '#'
+  - {t: AltGr+5, s: AltGr+%}
   - $
   - '%'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - OUT USB
   - OUT BLE
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: 'AltGr+,', s: AltGr+<}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB5'
   - {t: '$$mdi:minus-circle-outline$$', type: none}

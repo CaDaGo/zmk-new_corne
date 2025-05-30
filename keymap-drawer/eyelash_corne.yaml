@@ -44,8 +44,8 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: number}
   - {t: '''', h: SYMBOL, s: '"'}
   - {t: '*', h: movement_settings}

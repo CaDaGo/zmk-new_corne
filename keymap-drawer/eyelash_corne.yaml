@@ -195,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&gaming'
-  - movement_settings
+  - ragnarok_movement
   number:
   - PRINTSCREEN
   - F1
@@ -389,6 +389,55 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  ragnarok_movement:
+  - Alt+E
+  - Alt+Q
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Sft+Alt+Z
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PgUp
+  - PgDn
+  - SCROLLLOCK
+  - Ins
+  - PAUSE
+  - PRINTSCREEN
+  - Alt+A
+  - Alt+S
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - Sft+Ctl+Z
+  - OUT USB
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Gui+$$mdi:arrow-up-bold$$
+  - HOME
+  - END
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Alt+J
+  - Alt+I
+  - Alt+O
+  - Alt+K
+  - Alt+L
+  - Alt+M
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - OUT BLE
+  - Gui+$$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-down-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-command$$
+  - color
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}

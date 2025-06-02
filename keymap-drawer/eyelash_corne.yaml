@@ -192,7 +192,7 @@ layers:
   - Alt+R
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - ragnarok_movement
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&gaming'
   - ragnarok_movement
@@ -437,10 +437,10 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
-  - color
+  - {t: color, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
 combos:
 - p: [45, 47, 46]
   k: '&gaming_toggleRgb'

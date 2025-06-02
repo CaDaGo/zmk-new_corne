@@ -233,7 +233,7 @@
 &kp ESC    &doublestrafe  &kp N2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                           &trans          &kp LA(V)  &kp LA(B)  &kp LA(E)  &kp LA(Q)  &kp LA(W)  &kp LA(U)
 &kp TAB    &kp Q          &kp W   &kp E         &kp R         &kp T                    &trans  &trans  &trans  &kp LA(R)  &kp LA(J)  &kp LA(S)  &kp LA(Z)  &kp LA(H)  &kp LA(C)
 &kp LSHFT  &kp A          &kp S   &kp D         &kp F         &kp G   &mt ENTER INS            &trans          &kp INS    &kp LA(L)  &kp LA(M)  &kp LA(Y)  &kp LA(G)  &kp LA(R)
-                                  &trans        &trans        &trans                                           &kp ENTER  &gaming    &mo 8
+                                  &trans        &trans        &mo 8                                            &kp ENTER  &gaming    &mo 8
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;

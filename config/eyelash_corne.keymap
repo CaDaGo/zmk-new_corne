@@ -121,11 +121,6 @@
             key-positions = <3 8>;
             layers = <0>;
         };
-
-        strichOben {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <7 22>;
-        };
     };
 
     macros {

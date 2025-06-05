@@ -466,5 +466,3 @@ combos:
 - p: [3, 8]
   k: '&ue_umlaut'
   l: [QWERTY]
-- p: [7, 22]
-  k: {t: '''', s: '"'}

@@ -594,6 +594,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="448" y="18" width="28" height="26" class="combo"/>
 <text x="462" y="31" class="combo tap"><tspan style="font-size: 60%">&amp;ue_umlaut</tspan></text>
 </g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="241" y="193" width="28" height="26" class="combo"/>
+<text x="255" y="206" class="combo tap">
+<tspan x="255" dy="-0.6em">LEFT</tspan><tspan x="255" dy="1.2em">WIN</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-Gaming">

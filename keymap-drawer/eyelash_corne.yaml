@@ -466,3 +466,6 @@ combos:
 - p: [3, 8]
   k: '&ue_umlaut'
   l: [QWERTY]
+- p: [42, 43]
+  k: LEFT WIN
+  l: [QWERTY]

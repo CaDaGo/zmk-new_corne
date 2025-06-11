@@ -121,6 +121,12 @@
             key-positions = <3 8>;
             layers = <0>;
         };
+
+        window {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <42 43>;
+            layers = <0>;
+        };
     };
 
     macros {
